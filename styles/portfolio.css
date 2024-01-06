@@ -33,12 +33,32 @@ nav a {
 }
 .header {
   background-color: rgb(177, 157, 144);
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner {
-  padding: 30px, 30px, 30px, 150px;
+  padding: 20px, 50px, 0px, 400px;
   display: flex;
+  align-items: center;
 }
-.banner.profile-pic {
-  width: 500px;
+
+.banner .profile-pic {
+  width: 20px;
+  color: blueviolet;
+  margin-bottom: 100px;
+  margin-right: 800px;
+}
+.banner-gretting {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+main {
+  max-width: 1140px;
+}
+.about-info-container {
   display: flex;
+  justify-content: space-around;
 }
