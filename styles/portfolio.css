@@ -31,3 +31,14 @@ nav a {
   font-size: 20px;
   font-weight: 700px;
 }
+.header {
+  background-color: rgb(177, 157, 144);
+}
+.banner {
+  padding: 30px, 30px, 30px, 150px;
+  display: flex;
+}
+.banner.profile-pic {
+  width: 500px;
+  display: flex;
+}
