@@ -3,6 +3,7 @@ body {
 }
 nav {
   display: flex;
+  justify-content: space-around;
 }
 .nav-title {
   color: rgb(0, 0, 0);
@@ -11,6 +12,7 @@ nav {
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
@@ -25,4 +27,7 @@ nav a {
 .btn-primary {
   border-radius: 5px;
   background: rgb(188, 108, 108);
+  border: none;
+  font-size: 20px;
+  font-weight: 700px;
 }
